@@ -18,7 +18,7 @@ This kernel is built with a focus on stability and efficiency while maintaining 
 This project provides two distinct kernel variants built from different base sources to accommodate various ROM requirements:
 
 * **SuperNova**
-  * **Base:** LineageOS
+  * **Base:** Fork LineageOS Upstream
   * **Description:** Built upon the standard LineageOS kernel tree.
 
 ## ROM Compatibility
@@ -33,7 +33,7 @@ This project provides two distinct kernel variants built from different base sou
 ## Flashing Instructions
 
 1. Reboot the device into a custom recovery.
-2. Flash the selected kernel `.zip` package (SuperCreepy or SuperPotato).
+2. Flash the selected kernel `.zip` package (Supernova).
 3. Reboot the system.
 
 *Note: It is highly recommended to back up your current `boot` and `dtbo` partitions before flashing.*
